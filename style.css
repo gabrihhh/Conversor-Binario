@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+main{
+    background-color:skyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px black solid;
+    border-radius: 10px;   
+}
+.container{
+    width: 60vw;
+    height: 50vh;
+}
+input{
+    display: flex;
+    width: 59vw;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    background-color: skyblue;
+}
+input:focus{
+    outline: none;
+}
+.container-down{
+    display: flex;
+    width: 60vw;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;   
+}
